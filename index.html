@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Kantan Japanese</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Corporate-Footer-Clean.css">
+    <link rel="stylesheet" href="assets/css/Dark-NavBar-1.css">
+    <link rel="stylesheet" href="assets/css/Dark-NavBar-2.css">
+    <link rel="stylesheet" href="assets/css/Dark-NavBar.css">
+    <link rel="stylesheet" href="assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="hiragana.js" id="flip_flashcard"></script>
+</head>
+
+<body>
+
+</div>
+<div class="container all">
+    <div class="row">
+        <div class="col-md-4 checkboxes">
+            <h3>Hiragana</h3>
+            <div class="form-check"><input class="form-check-input" type="checkbox" id="hiramono" checked><label class="form-check-label" for="hiramono">Monographs</label></div>
+            <div class="form-check"><input class="form-check-input" type="checkbox" id="hiradigra"><label class="form-check-label" for="hiradigra">Digraphs&nbsp;</label></div>
+
+        </div>
+        <div class="col-md-4 core">
+
+            <div class="img_container" id="img_holder"></div>
+            <p id="coin">The correct answer will be displayed here</p>
+            <button id="button_placement" class="btn btn-primary" type="button"  onclick="main_hiragana(current, hiragana_all, exiled, digraph, full_hira, selection)">Start</button>
+            <input type="text" id="kotae">
+        </div>
+        <div class="col-md-4 instruction">
+            <h3>Instructions</h3>
+            <p>&nbsp;There are a few checkboxes in which you can set up your personalized training. Depending upon the selected ones, this will arrange the symbols displayed. <br><br>&nbsp;You will also find a Japanese character, a button, and a writing space. Once you see and recognize the symbol, type the lecture in and press "pass"; Automatically, the app will tell you whether you wrote it correctly or wrong. Then a new character will appear on the screen. You can repeat the process the times you want.</p>
+        </div>
+    </div>
+</div>
+<div id="Second-part" class="dark-section"></div>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/bs-init.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    $('#img_holder').append('<img id="hiragana_img" src="hajimeru.png"/>')
+</script>
+</body>
+
+</html>
